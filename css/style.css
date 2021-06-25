@@ -5,3 +5,39 @@
     box-sizing: border-box;
 }
 
+/* Common */
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Header  */
+header{
+    background-color: rgb(226, 43, 217);
+    height: 80px;
+	margin-bottom: 20px;
+}
+
+/* Main  */
+Main{
+    margin-top: 20px;
+}
+
+.box{
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.yellow{
+    background-color: #e1d67a;
+}
+
+.blue{
+   background-color: #abcfe7 ; 
+}
